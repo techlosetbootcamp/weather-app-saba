@@ -114,7 +114,7 @@ export type CitySearchState = {
   loading: boolean;
   error: string | null;
 };
-// types/types.ts
+
 
 
 export type SearchInputProps= {

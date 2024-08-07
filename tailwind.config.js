@@ -13,6 +13,7 @@ export default {
 
       screens: {
         lm: { max: "900px" },
+      
         mp: { max: "720px" },
         pp: { max: "610px" },
         lp: { max: "500px" },

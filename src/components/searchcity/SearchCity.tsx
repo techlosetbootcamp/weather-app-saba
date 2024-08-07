@@ -18,7 +18,7 @@ const SearchInput: React.FC<SearchInputProps> = ({
   return (
     <>
       <input
-        className="h-[56px] xl:w-[512px]  lg:w-[282px] md:w-[282px] lm:w-[432px] mp:w-[ 400px] pp:w-[342px]  lp:w-[242px] xs:w-[211px] ls:ml-[4px] ls:w-[140px] xs:p-2 p-[16px] inline bg-charCoal text-primary rounded-[8px]"
+        className="h-[56px] xl:w-[512px] w-[550px] lg:w-[282px]  md:w-[282px] lm:w-[432px] mp:w-[ 400px] pp:w-[342px]  lp:w-[242px] xs:w-[211px] ls:ml-[4px] ls:w-[140px] xs:p-2 p-[16px] inline bg-charCoal text-primary rounded-[8px]"
         type="text"
         placeholder="Search Location"
         onChange={handleCityChange}

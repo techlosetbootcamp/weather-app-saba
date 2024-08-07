@@ -33,7 +33,7 @@ const WeatherCard: React.FC<WeatherCardProps> = ({
           />
         ) : (
           <ToggleRight
-            className="inline fill-darkGray ls:hidden bg-charCoal h-[56px] w-[56px] p-2 rounded-[8px] cursor-pointer"
+            className="inline fill-darkGray ls:hidden bg-charCoal h-[56px] w-[56px]  mx-1 p-2 rounded-[8px] cursor-pointer"
             onClick={toggleUnit}
           />
         )}
